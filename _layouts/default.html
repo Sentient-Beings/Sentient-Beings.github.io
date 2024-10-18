@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ page.description }}">
-    <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
-  <body>
+    <title>{{ site.title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 1rem;
+            text-align: center;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo {
+            width: 40px;
+            height: auto;
+            margin-right: 10px;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
     <header>
-      <div style="display:flex; align-items:center;">
-        <img src="{{ '/assets/images/sentient_beings.jpeg' | relative_url }}" alt="Sentient Beings Logo" style="width:40px; height:auto; margin-right: 10px;">
-        <h1>{{ site.title }}</h1>
-      </div>
+        <div class="logo-container">
+            <img src="{{ '/assets/images/sentient_beings.jpeg' | relative_url }}" alt="Sentient Beings Logo" class="logo">
+            <h1>{{ site.title }}</h1>
+        </div>
     </header>
-
     <main>
-      {{ content }}
+        {{ content }}
     </main>
-
     <footer>
-      <p>© {{ site.title }} - All rights reserved</p>
+        <p>© {{ site.title }} - All rights reserved</p>
     </footer>
-  </body>
+</body>
 </html>
