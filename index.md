@@ -1,6 +1,5 @@
 ---
 layout: default
-title :  
 description: Developing Agentic Solutions for Robotic Applications
 ---
 
