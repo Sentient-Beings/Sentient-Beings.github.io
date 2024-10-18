@@ -1,6 +1,5 @@
 ---
 layout: default
-description: Developing Agentic Solutions for Robotic Applications
 ---
 
 # Welcome to the Sentient Beings Open Source Community!
