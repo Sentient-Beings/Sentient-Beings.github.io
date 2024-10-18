@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <div style="display:flex; align-items:center;">
+        <img src="{{ '/assets/images/sentient_beings.jpeg' | relative_url }}" alt="Sentient Beings Logo" style="width:40px; height:auto; margin-right: 10px;">
+        <h1>{{ site.title }}</h1>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>© {{ site.title }} - All rights reserved</p>
+    </footer>
+  </body>
+</html>
