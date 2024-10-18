@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Sentient Beings
 description: Developing Agentic Solutions for Robotic Applications
 ---
 
