@@ -13,7 +13,7 @@ Empower robots with the capability to reason and semantically understand our wor
 
 ## Key Projects You Can Contribute To:
 - [**Project Alpha**](https://github.com/Sentient-Beings/RobotwithMemory): A Retrieval-Augmented Generation (RAG)-based solution for **autonomous robot navigation**, where robots remember and use information from past experiences.
-- [**Project Beta**](https://github.com/Sentient-Beings/Language-to-Actions): Mapping **natural language commands** to **robotic actions**, enabling robots to understand and perform tasks based on verbal instructions fully autonomously. 
+- [**Project Beta**](https://github.com/Sentient-Beings/Language-to-Actions): Mapping **natural language commands** to **robotic actions**, enabling robots to understand and perform tasks based on verbal instructions fully autonomously. [Undergoing some code refactoring]
 
 These projects are designed to be accessible, with clear documentation and open issues that are beginner-friendly. Your ideas and contributions are invaluable to us! We are continiously evolving and trying new and different things. Feel free to add more projects, this is just the beginning ! 
 
