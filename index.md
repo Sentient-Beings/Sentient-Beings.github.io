@@ -12,10 +12,11 @@ Open collaboration is really powerful and so we’re excited to invite developer
 Empower robots with the capability to reason and semantically understand our world in better ways. 
 
 ## Key Projects You Can Contribute To:
-- [**Project Alpha**](https://github.com/Sentient-Beings/RobotwithMemory): A Retrieval-Augmented Generation (RAG)-based solution for **autonomous robot navigation**, where robots remember and use information from past experiences.
-- [**Project Beta**](https://github.com/Sentient-Beings/Language-to-Actions): Mapping **natural language commands** to **robotic actions**, enabling robots to understand and perform tasks based on verbal instructions fully autonomously. [Undergoing some code refactoring]
+- [**Project Alpha**](https://github.com/Sentient-Beings/RobotwithMemory): A Retrieval-Augmented Generation (RAG)-based solution for **autonomous robot navigation**, where robots remember and use information from past experiences to navigate based on the user input.
+- [**Project Beta**](https://github.com/Sentient-Beings/Language-to-Actions): Mapping **natural language commands** to **robotic actions**, enabling robots to understand the scene and perform actions using a **specially designed API** based on user instructions fully autonomously.
+- [**Project Gamma**](https://github.com/Sentient-Beings/robot_learning.git): Text + Pixels to Actions, this project focuses on arm robots particularly single arm robots. Using a vision language action model we translate the user command to the joint space of the robot. [Work in progress]
 
-These projects are designed to be accessible, with clear documentation and open issues that are beginner-friendly. Your ideas and contributions are invaluable to us! We are continiously evolving and trying new and different things. Feel free to add more projects, this is just the beginning ! 
+These projects are designed to be accessible, with clear documentation and open issues that are beginner-friendly. Your ideas and contributions are invaluable to us! We are continiously trying to build SOTA. Feel free to add more projects, this is just the beginning ! 
 
 ## How to Get Started:
 1. **Explore our repositories** and find a project that excites you.
